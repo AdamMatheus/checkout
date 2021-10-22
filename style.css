@@ -1,0 +1,174 @@
+body{
+
+    background: beige;
+    display:grid;
+    grid-template-columns: 15% 30% 30% 20%; 
+    grid-template-rows: 10% 140% 10% ;
+    row-gap: 10px;
+    
+}
+
+main{
+    display: grid;
+    grid-template-columns: 45% 15%;
+    grid-template-rows: 100%;
+  
+    grid-area: 2/2/3/4;
+    gap: 2%;
+    
+}
+
+img{
+    width:25%;
+    height: 45%;
+    border-radius: 15px;
+    padding: 10px;
+       
+
+}
+
+.quantity-controller button{
+    width:25px;
+    height: 33px;
+    padding: 2px;
+    border-radius: 15px;
+    background-color:aqua;
+}
+
+#product-painel{
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 300%;
+    height: 50%;
+    background-color: rgb(230, 240, 243);
+    padding:15px 15px;
+   
+}
+
+p{
+    display: inline;
+    padding:5px 30px 5px;
+    position: relative;
+    font-size: large;
+    justify-items: flex-start ;
+
+    
+}
+.product{
+    display:flex;
+    
+}
+
+h1{
+   font-size: 22px;
+
+}
+
+h2{
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#checkout-title{
+    font-size: 46px;
+    display: grid;
+    grid-area: 1/1/2/5;
+    text-align: center;
+}
+.quantity-controller{
+    display:flex;
+    height: 35px;
+    width: 70%;
+    font-size: 16px;
+    border: 1px solid gray;
+    justify-content:space-around;
+    border-radius: 10px;
+}
+.campo{
+    border-radius: 20px;
+    width:100%;
+    height:80px;
+}
+
+.input-field{
+    border-radius: 20px;
+    width:100%;
+    height:80px;
+    position: relativea;
+    text-align: center;
+
+
+}
+#user-email,#user-phone-number,#user-full-name,#user-address,#user-city,#country-field{
+    border-radius: 10px;
+    width:100%;
+    height:40%;
+    display:relative;
+    text-align: center;
+    
+
+}
+#user-country{
+    width:30%;
+    border-radius:10px;
+    height: 40%;
+    display:flex;
+    position:static;
+    text-align: center;
+  
+}
+
+#user-postal-code{
+    width:60%;
+    border-radius:10px;
+    height: 40%;
+    /* display:absolute;
+    position: absolute; */
+    text-align: center;
+}
+
+#postal-code-field{
+    display:absolute;
+    position:relative;
+    
+}
+
+  
+.input-field i{
+    display:flex;
+    width: 100%;
+    /* margin-bottom: 10px; */
+    transform: translateY(-150%) translateX(0.5%);
+    opacity: 0.6;
+    justify-items:flex-end;
+    
+    align-items: flex-end;
+}
+  
+/* .icon {
+    padding: 5px;
+    min-width: 40px;
+} */
+#btn-submit{
+    border: 1px solid;
+    border-radius: 15px;
+    width:auto;
+    height: 40px;
+    text-align: center;
+    display:flexbox;
+    text-align: center;
+    background-color: orange;
+
+}
+  
+#btn-submit:hover{
+    background-color: brown;
+}
+
+strong{
+    color: orange;
+    font-size: large;
+}
+
+.line-through{
+    text-decoration: line-through;
+}
